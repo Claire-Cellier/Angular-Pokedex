@@ -1,4 +1,4 @@
-import { Component, inject, signal, computed } from '@angular/core';
+import { Component, inject, computed } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { PokemonService } from '../../pokemon.service';
 import { DatePipe } from '@angular/common';
@@ -34,8 +34,5 @@ export class PokemonProfileComponent {
     this.#pokemonService.deletePokemon(this.#pokemonId).subscribe(() => {
       this.#router.navigate(['/pokemons'])
     });
-    // suscribe pour déclencher la suppression
   }
-
-  //  readonly pokemon = toSignal(this.#pokemonService.getPokemonById(this.#pokemonId));
 };

@@ -7,11 +7,11 @@ import { getPokemonColor } from './pokemon.model';
 })
 export class PokemonBorderDirective {
   pokemonType = input.required<string>();
-  private initialColor: string;
+  private readonly initialColor: string;
 
-  constructor(private el: ElementRef) {
-    this.initialColor = this.el.nativeElement.style.borderColor;
-    this.el.nativeElement.style.borderWidth = '2px';
+  constructor(private readonly element: ElementRef) {
+    this.initialColor = this.element.nativeElement.style.borderColor;
+    this.element.nativeElement.style.borderWidth = '2px';
   }
 
   @HostListener('mouseenter') onMouseEnter() {
@@ -25,7 +25,7 @@ export class PokemonBorderDirective {
   }
 
   private setBorder(color: string) {
-    this.el.nativeElement.style.borderColor = color;
+    this.element.nativeElement.style.borderColor = color;
   }
   
 }

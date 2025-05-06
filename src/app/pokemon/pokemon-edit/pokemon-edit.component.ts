@@ -32,34 +32,10 @@ export class PokemonEditComponent {
  readonly error = computed(() => this.#pokemonResponse()?.error)
 
  readonly pokemon = computed(() =>this.#pokemonResponse()?.value);
-
-//  readonly pokemonId = signal(
-//   Number(this.route.snapshot.paramMap.get('id'))
-// ).asReadonly();
-  // readonly pokemon = signal(
-  //   this.pokemonService.getPokemonById(this.pokemonId())
-  // ).asReadonly();
-  //
-  // readonly pokemon = toSignal(
-  //   this.pokemonService.getPokemonById(this.pokemonId())
-  // );
   
   readonly POKEMON_RULES = POKEMON_RULES;
 
   readonly form = new FormGroup({
-    // name: new FormControl(this.pokemon().name, [
-    //   Validators.required,
-    //   Validators.minLength(POKEMON_RULES.MIN_NAME),
-    //   Validators.maxLength(POKEMON_RULES.MAX_NAME),
-    //   Validators.pattern(POKEMON_RULES.NAME_PATTERN),
-    // ]),
-    // life: new FormControl(this.pokemon().life),
-    // damage: new FormControl(this.pokemon().damage),
-    // types: new FormArray(this.pokemon().types.map((type) => new FormControl(type)), 
-    // [
-    //   Validators.required, // au moins un type sélectionné
-    //   Validators.maxLength(POKEMON_RULES.MAX_TYPES),
-    // ]),
     name: new FormControl('', [
       Validators.required,
       Validators.minLength(POKEMON_RULES.MIN_NAME),
@@ -71,7 +47,7 @@ export class PokemonEditComponent {
     types: new FormArray(
       [], 
       [
-        Validators.required, // au moins un type sélectionné
+        Validators.required, 
         Validators.maxLength(POKEMON_RULES.MAX_TYPES),
       ]),
   });
@@ -135,8 +111,6 @@ export class PokemonEditComponent {
   isPokemonTypeSelected(type: string): boolean {
     return !!this.pokemonTypeList.controls.find((control) => control.value === type);
   }
-  // find s'utilise avec soit un résultat soit un undifined
-  // ici en mettant !! on le converti en boolean, resultat = true, undefined = false
 
   // Selon intéraction, vérifier si la case est cochée ou non et mise à jouur en conséquence
   onPokemonTypeChange(type: string, isCkecked: boolean) {
