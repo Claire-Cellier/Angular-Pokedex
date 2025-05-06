@@ -1,0 +1,181 @@
+{
+    "pokemons": [
+      {
+        "id": 1,
+        "name": "Bulbizarre",
+        "life": 29,
+        "damage": 9,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/250px-0001Bulbasaur.png",
+        "types": [
+          "Plante",
+          "Poison"
+        ],
+        "created": "2024-08-16T00:00:00Z",
+        "type": [
+          "Plante",
+          "Poison"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Salamèche",
+        "life": 28,
+        "damage": 6,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/250px-0004Charmander.png",
+        "types": [
+          "Feu"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 3,
+        "name": "Carapuce",
+        "life": 21,
+        "damage": 4,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/5/54/0007Squirtle.png/250px-0007Squirtle.png",
+        "types": [
+          "Eau"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 4,
+        "name": "Aspicot",
+        "life": 16,
+        "damage": 2,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/3/36/0013Weedle.png/250px-0013Weedle.png",
+        "types": [
+          "Insecte",
+          "Poison"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 5,
+        "name": "Roucool",
+        "life": 30,
+        "damage": 7,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/0/0c/0016Pidgey.png/250px-0016Pidgey.png",
+        "types": [
+          "Normal",
+          "Vol"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 6,
+        "name": "Rattata",
+        "life": 18,
+        "damage": 6,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/a/aa/0019Rattata.png/250px-0019Rattata.png",
+        "types": [
+          "Normal"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 7,
+        "name": "Piafabec",
+        "life": 14,
+        "damage": 5,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/2/2d/0021Spearow.png/250px-0021Spearow.png",
+        "types": [
+          "Normal",
+          "Vol"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 8,
+        "name": "Abo",
+        "life": 16,
+        "damage": 4,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/d/d2/0023Ekans.png/250px-0023Ekans.png",
+        "types": [
+          "Poison"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 9,
+        "name": "PikachuJeanLuc",
+        "life": 21,
+        "damage": 7,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/4/4a/0025Pikachu.png/375px-0025Pikachu.png",
+        "types": [
+          "Electrik"
+        ],
+        "created": "2024-08-16T00:00:00Z",
+        "type": [
+          "Electrik"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Sabelette",
+        "life": 19,
+        "damage": 3,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/e/e9/0027Sandshrew.png/375px-0027Sandshrew.png",
+        "types": [
+          "Normal"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 11,
+        "name": "Mélofée",
+        "life": 25,
+        "damage": 5,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/b/b7/0035Clefairy.png/250px-0035Clefairy.png",
+        "types": [
+          "Fée"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 12,
+        "name": "Groupix",
+        "life": 17,
+        "damage": 8,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/0/06/0037Vulpix.png/250px-0037Vulpix.png",
+        "types": [
+          "Feu"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 13,
+        "name": "Dracaufeu",
+        "life": 26,
+        "damage": 9,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/3/38/0006Charizard.png/250px-0006Charizard.png",
+        "types": [
+          "Feu"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 14,
+        "name": "Evoli",
+        "life": 15,
+        "damage": 5,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/4/4c/0133Eevee.png/375px-0133Eevee.png",
+        "types": [
+          "Normal"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      },
+      {
+        "id": 15,
+        "name": "Rondoudou",
+        "life": 20,
+        "damage": 3,
+        "picture": "https://archives.bulbagarden.net/media/upload/thumb/3/3a/0039Jigglypuff.png/375px-0039Jigglypuff.png",
+        "types": [
+          "Normal",
+          "Fée"
+        ],
+        "created": "2024-08-16T00:00:00Z"
+      }
+    ]
+  }
