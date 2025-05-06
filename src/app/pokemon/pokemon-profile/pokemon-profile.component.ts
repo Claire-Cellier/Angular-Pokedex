@@ -11,6 +11,7 @@ import { catchError, map, of } from 'rxjs';
   templateUrl: './pokemon-profile.component.html',
   styles: ``,
 })
+
 export class PokemonProfileComponent {
   readonly #route = inject(ActivatedRoute);
   readonly #router = inject(Router)
